@@ -4,4 +4,8 @@ A modern calculator built with JavaScript featuring a clean UI and responsive de
 - Basic arithmetic operations
 - Keyboard support
 - Responsive layout
+## Tech Stack
+- HTML
+- CSS
+- JavaScript
 
