@@ -39,3 +39,35 @@ body {
 .calculator.right {
   background: var(--bg-right);
 }
+
+.screen {
+  height: 90px;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left .screen {
+  background: var(--screen-dark);
+  color: #fff;
+}
+
+.right .screen {
+  background: var(--screen-light);
+  color: #111;
+}
+
+.expression {
+  font-size: 14px;
+  text-align: right;
+  opacity: 0.8;
+}
+
+.result {
+  font-size: 32px;
+  text-align: right;
+  margin-top: 6px;
+}
