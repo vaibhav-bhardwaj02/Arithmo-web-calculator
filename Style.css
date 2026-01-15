@@ -90,3 +90,21 @@ button {
 button:active {
   transform: scale(0.95);
 }
+
+.num {
+  background: var(--btn-red);
+  color: #fff;
+}
+
+.op {
+  background: var(--btn-blue);
+  color: #fff;
+}
+
+.ctrl {
+  background: var(--btn-gray);
+}
+
+.wide {
+  grid-column: span 2;
+}
