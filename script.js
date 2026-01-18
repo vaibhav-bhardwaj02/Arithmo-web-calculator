@@ -34,3 +34,20 @@ function formatResult(num) {
 buttons.forEach(btn => {
   btn.addEventListener("click", () => {
     const value = btn.dataset.value;
+
+    if (value === "AC") {
+      expression = "";
+      current = "";
+      justCalculated = false;
+      expressionEl.textContent = "";
+      resultEl.textContent = "0";
+      return;
+    }
+
+    if (value === "DEL") {
+      expression = expression.slice(0, -1);
+      current = current.slice(0, -1);
+      expressionEl.textContent = expression;
+      resultEl.textContent = current ? formatResult(current) : "0";
+      return;
+    }
