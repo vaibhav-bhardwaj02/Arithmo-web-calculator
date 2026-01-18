@@ -30,3 +30,7 @@ function formatResult(num) {
   }
   return str;
 }
+
+buttons.forEach(btn => {
+  btn.addEventListener("click", () => {
+    const value = btn.dataset.value;
