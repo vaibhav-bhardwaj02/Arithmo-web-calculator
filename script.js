@@ -51,3 +51,7 @@ buttons.forEach(btn => {
       resultEl.textContent = current ? formatResult(current) : "0";
       return;
     }
+
+});
+});
+
