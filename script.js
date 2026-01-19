@@ -59,11 +59,21 @@ buttons.forEach(btn => {
         expression = rawResult.toString();
         current = expression;
         justCalculated = true;
-      } catch {
+    } catch {
         resultEl.textContent = "Error";
+    }
+      return;
+    }
+
+    if (value === "%") {
+        if (current) {
+        current = (parseFloat(current) / 100).toString();
+        expression = current;
+        resultEl.textContent = formatResult(current);
       }
       return;
     }
+
 
 });
 });
