@@ -52,6 +52,19 @@ buttons.forEach(btn => {
       return;
     }
 
+    if (value === "=") {
+        try {
+        const rawResult = eval(expression);
+        resultEl.textContent = formatResult(rawResult);
+        expression = rawResult.toString();
+        current = expression;
+        justCalculated = true;
+      } catch {
+        resultEl.textContent = "Error";
+      }
+      return;
+    }
+
 });
 });
 
