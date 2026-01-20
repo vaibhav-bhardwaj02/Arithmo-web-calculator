@@ -78,9 +78,14 @@ buttons.forEach(btn => {
       expression = value;
       current = value;
       justCalculated = false;
+    } else {
+      expression += value;
+      current += value;
+      justCalculated = false;
     }
 
-
+    expressionEl.textContent = expression;
+    resultEl.textContent = formatResult(current);
 });
 });
 
