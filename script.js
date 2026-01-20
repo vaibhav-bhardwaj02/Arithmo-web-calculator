@@ -74,6 +74,12 @@ buttons.forEach(btn => {
       return;
     }
 
+    if (justCalculated && !isNaN(value)) {
+      expression = value;
+      current = value;
+      justCalculated = false;
+    }
+
 
 });
 });
