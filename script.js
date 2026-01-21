@@ -92,4 +92,14 @@ buttons.forEach(btn => {
 // ---------- Layout Toggle ONLY ----------
 toggleBtn.innerHTML = "&#9790;";
 
+toggleBtn.addEventListener("click", () => {
+  calculator.classList.toggle("left");
+  calculator.classList.toggle("right");
+
+  toggleBtn.innerHTML = calculator.classList.contains("right")
+    ? "&#9728;"  // ☀
+    : "&#9790;"; // ☾
+});
+
+
 
