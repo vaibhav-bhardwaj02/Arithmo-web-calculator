@@ -89,3 +89,7 @@ buttons.forEach(btn => {
 });
 });
 
+// ---------- Layout Toggle ONLY ----------
+toggleBtn.innerHTML = "&#9790;";
+
+
