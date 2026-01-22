@@ -8,4 +8,6 @@ A modern calculator built with JavaScript featuring a clean UI and responsive de
 - HTML
 - CSS
 - JavaScript
-
+## 🚀 Getting Started
+1. Clone the repository
+2. Open `index.html` in your browser
