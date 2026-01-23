@@ -18,4 +18,7 @@ Free to use for learning and personal projects.
 - Event handling in JavaScript
 - UI state management
 - Responsive layout design
+## 📅 Development Timeline
+This project was built incrementally over 14 days with daily commits to maintain consistency and clarity.
+
 
