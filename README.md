@@ -13,3 +13,9 @@ A modern calculator built with JavaScript featuring a clean UI and responsive de
 2. Open `index.html` in your browser
 ## 📄 License
 Free to use for learning and personal projects.
+## 🎯 Learning Outcomes
+- DOM manipulation
+- Event handling in JavaScript
+- UI state management
+- Responsive layout design
+
