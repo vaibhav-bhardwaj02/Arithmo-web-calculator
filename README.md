@@ -22,4 +22,8 @@ Free to use for learning and personal projects.
 This project was built incrementally over 14 days with daily commits to maintain consistency and clarity.
 ## 🙌 Acknowledgements
 Inspired by modern minimal calculator UI concepts.
+## 📌 Project Status
+✅ Completed  
+📅 Built with daily commits over 14 days  
+🛠️ Tech Stack: HTML, CSS, JavaScript
 
