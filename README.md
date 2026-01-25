@@ -1,10 +1,10 @@
-# Arithmo 📟
+# 📟Arithmo 
 A modern calculator built with JavaScript featuring a clean UI and responsive design.
-## Features
+## 🪄 Features
 - Basic arithmetic operations
 - Keyboard support
 - Responsive layout
-## Tech Stack
+## ⚙️ Tech Stack
 - HTML
 - CSS
 - JavaScript
