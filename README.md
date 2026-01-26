@@ -23,9 +23,9 @@ This project was built incrementally over 14 days with daily commits to maintain
 ## 🙌 Acknowledgements
 Inspired by modern minimal calculator UI concepts.
 ## 📌 Project Status
-✅ Completed  
-📅 Built with daily commits over 14 days  
-🛠️ Tech Stack: HTML, CSS, JavaScript
+- Completed  
+- Built with daily commits over 14 days  
+- Tech Stack: HTML, CSS, JavaScript
 ---
 ⭐ If you like this project, consider giving it a star!
 
