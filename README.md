@@ -27,6 +27,6 @@ Inspired by modern minimal calculator UI concepts.
 - Built with daily commits over 14 days  
 - Tech Stack: HTML, CSS, JavaScript
 ---
-⭐ If you like this project, consider giving it a star!
+⭐⭐ If you like this project, consider giving it a star!
 
 
