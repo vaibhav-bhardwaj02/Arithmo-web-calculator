@@ -88,7 +88,6 @@ buttons.forEach(btn => {
     resultEl.textContent = formatResult(current);
 });
 });
-
 // ---------- Layout Toggle ONLY ----------
 toggleBtn.innerHTML = "&#9790;";
 
