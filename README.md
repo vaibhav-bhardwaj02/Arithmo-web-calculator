@@ -28,4 +28,3 @@ Inspired by modern minimal calculator UI concepts.
 - Tech Stack: HTML, CSS, JavaScript
 ---
 ⭐⭐ If you like this project, consider giving it a star!
-
