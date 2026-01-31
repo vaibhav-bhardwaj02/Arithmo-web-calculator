@@ -99,4 +99,3 @@ toggleBtn.addEventListener("click", () => {
     ? "&#9728;"  // ☀
     : "&#9790;"; // ☾
 });
-
